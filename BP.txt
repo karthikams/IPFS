@@ -1,0 +1,62 @@
+In spite technology progressing at a break-neck pace in the modern world, the effects of these are not commensurate with the healthcare world. Based on the survey of all acute care hospitals that are members of the American Hospital association, only 1.5% of U.S. hospitals have comprehensive electronic records [1]. Surveys and statistical analysis were carried on 3049 acute care general hospitals in USA to determine the extent of adoption of EHR. The report also showcases the differences in the data stored in EHR. Laboratory results were included in HER in majority of hospitals, but physician notes were not frequently implemented. The paper points that inadequate capital is the result of non-adoption of EHR.
+
+There are many theorectical studies going on in the field of health industry to increase the interoperatibility between various health care providers. To increase interoperability, digitization of records are necessary. [2] proposes a realistic solution for converting the patient health data in paper format in to electronic form by uploading them to the cloud. But cloud also poses different problems related to the accessibility and security of data. [2] also provides a solution for such problems by introducing the concept of blockchain in to the scenario. [6] proposes a system, in which patient is given full control over the access and transfer of EMR. An  Attribute based digital signature is used to secure the EMRs in [6].
+
+The Institute for Business Value at IBM issued a whitepaper 
+titled, "Healthcare rallies for blockchains: Keeping
+ patients at the center" [9]. This investigation shows that 70% of the industry leaders predict that the application of blockchain in health care domain can provide a secure, decentralized framework for the controlled 
+sharing of patient EMRs and data exchange. Blockchain is developed from the concept of Bitcoin[5] which is introduced as  a digital currency. The purpose of Bitcoin is to avoid third party involvement in financial transactions. It provides transparency, security and immutability which ensures the safe storage of sensitive data. However, the core technology and the benefits it provides has far reaching applications even in health care industry[6]. The concepts of Peer to Peer Networks, use of public and private keys for data security and hashing to reduce the consumption of disk space can be applied in Health care domain too. 
+
+[3] have very clearly expalined the differnt sectors in the health care where blockchain can be implemented. Our project work is based on building blockchain network which is patient oriented. [3] elaborates swiss startup health bank which has implemented a network where patients are sharing their health data [4]. It also sheds information on further improvements the startup is working, which closely resembles to the goals of our project. Our work focusses on making all kinds of personal health data available to the blockchain network. With the rapid proliferation of mobile devices coupled with healthcare monitoring services and devices there is a large amount of PHD generated. This data is patient-centric. This can be properly utilized with a blockchain based system with the patient as the owner of the data. [7] Healthcare providers and insurance agents can be added to the blockchain network by the patient. Blockchain technology ensures security, transparency and immutability of data. BlocHIE is another blockchain based theoretical designn for enabling HIE [8]. In BlocHIE the data is categorized into two namely Electronic Medical Records (EMR) and Personal Health Data(PHD). Separate blockchains are used for storing each. BlocHIE uses off-chain storage and on-chain verification for privacy and authentication [8]. This system provides a holistic view of patient generated and hospital generated health data.
+
+With the emergence of IoT, the healh care became more patient accessible. Various researches are going on in this field to join IoT and health care domain. One of important factor in a large network where information exchange is involved is making various devices agree to a common standard. "An Interoperability Solution for Legacy Healthcare Devices" by Yuan-Fa Lee [11] presents current hinderances in exchanging trustworthy information between health care devices. The paper proposes adapter x73-PHD system for non-healthcare devices that don’t follow the x73-PHD standards. The fast improvement of mobile computing prompts another idea of Pervasive Social Network (PSN)- based social insurance. PSN based healthcare [10] empowers clients to share information gathered by sensors. [10] introduces a concept of secure PSN based healthcare in mobile computing and wireless sensing. This is implemented by following two protocol where in the first protocol uses IEEE 802.5.6 and the second protocol uses blockchain which is based on PSN to distribute health information data.
+
+One of the innovations in medical field is electronic decentralized storage of patient’s health record. Smart contracts, an application of blockchain is used to store medical record. [12] briefly discusses the idea of using blockchain to store the medical record. Yet it doesn’t speak about any security feature that is provided for the record. Hence, this gave us a motivation to add security feature in our project while storing personal health data. After much research, conclusion is reached to use IPFS for storage of data and public key infrastructure would be used to provide security for the data.
+
+
+
+
+
+
+
+
+
+
+
+
+[1] Jha, Ashish K., et al. "Use of electronic health records in US hospitals." New England Journal of Medicine 360.16 (2009): 1628-1638.
+From:https://www.nejm.org/doi/full/10.1056/nejmsa0900592?casa_token=j3-EHrS5JIEAAAAA:P9WuMXY2huSGn8XZTj07bdHFudR3wP9e5do9sMxPo_j9bTNMlrVYfsd1-HX8Y-9kPoZe13pQY7c-0d-z
+
+[2] Esposito, Christian, et al. "Blockchain: A Panacea for Healthcare Cloud-Based Data Security and Privacy?." IEEE Cloud Computing 5.1 (2018): 31-37.
+APA
+From:https://ieeexplore.ieee.org/document/8327543
+
+[3] Mettler, Matthias. "Blockchain technology in healthcare: The revolution starts here." e-Health Networking, Applications and Services (Healthcom), 2016 IEEE 18th International Conference on. IEEE, 2016.
+From: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7749510
+
+[4]P. B. Nichol (2016, March), Blockchain applications for healthcare,
+[Online]. Available: http://www.cio.com/article/3042603/innovation/blockchain-applications-for-healthcare.html. 
+
+[5] Nakamoto, Satoshi. "Bitcoin: A peer-to-peer electronic cash system." (2008).
+Available: at: https://s3.amazonaws.com/academia.edu.documents/32413652/BitCoin_P2P_electronic_cash_system.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&Expires=1542155517&Signature=4OrLwQugjLItruS%2Fq3JqQO1crTg%3D&response-content-disposition=inline%3B%20filename%3DBitcoin_A_Peer-to-Peer_Electronic_Cash_S.pdf
+
+[6] Guo, Rui, et al. "Secure attribute-based signature scheme with multiple authorities for Blockchain in electronic health records systems." IEEE Access 776.99 (2018): 1-12.
+Available:https://ieeexplore-ieee-org.libaccess.sjlibrary.org/stamp/stamp.jsp?tp=&arnumber=8279429
+
+[7] Liang, Xueping, et al. "Integrating blockchain for data sharing and collaboration in mobile healthcare applications." Personal, Indoor, and Mobile Radio Communications (PIMRC), 2017 IEEE 28th Annual International Symposium on. IEEE, 2017.
+From https://www.researchgate.net/profile/Xueping_Liang/publication/320337312_Integrating_Blockchain_for_Data_Sharing_and_Collaboration_in_Mobile_Healthcare_Applications/links/59e77703a6fdcc6433a94d8b/Integrating-Blockchain-for-Data-Sharing-and-Collaboration-in-Mobile-Healthcare-Applications.pdf
+
+[8] Jiang, S., Cao, J., Wu, H., Yang, Y., Ma, M., & He, J. BlocHIE: a BLOCkchain-based platform for Healthcare Information Exchange.
+From https://www.researchgate.net/profile/Shan_Jiang70/publication/324728250_BlockHIE_a_BLOCkchain-based_platform_for_Healthcare_Information_Exchange/links/5adf5704aca272fdaf8a2bde/BlockHIE-a-BLOCkchain-based-platform-for-Healthcare-Information-Exchange.pdf
+
+[9] Healthcare Rallies for Blockchains: Keeping Patients at
+the Center. [Online]. 
+Available: http://www.ibm.biz/blockchainhealth
+
+[10] Zhang, Jie, Nian Xue, and Xin Huang. "A secure system for pervasive social network-based healthcare." IEEE Access 4 (2016): 9239-9250.
+https://ieeexplore.ieee.org/abstract/document/7801940
+
+[11] Lee, Yuan-Fa. "An interoperability solution for legacy healthcare devices." IT Professional 17.1 (2015): 51-57.
+https://ieeexplore.ieee.org/abstract/document/7030146
+
+

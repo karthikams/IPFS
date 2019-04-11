@@ -1,0 +1,11 @@
+TA in office -- thread
+students waiting for help.
+one students enters office
+3 students in chair
+if more comes ask them to do programming --- thread(sleep)
+after help student goes out
+TA should check any occupants in seat. If present call the student in first chair(Loop for 3) if all chairs vacant he can go to sleeping
+else
+go to sleep
+if a student comes while he is sleeping. Give a wake up call using semaphore
+I think TA is the critical resource.
