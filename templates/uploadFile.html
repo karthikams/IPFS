@@ -1,35 +1,15 @@
-<!DOCTYPE html>
-<html>
-<style>
-body {
-  background-color: silver;
-  border-style: solid;
-  border-width: medium;
-  margin: 20px;
-  margin-right: 800px;
-}
+{% extends "layout.html" %}
+{% block content %}
 
-h1 {
-  color: blue;
-  margin-left: 25px;
-}
 
-div {
-  margin: 25px;
-}
-
-</style>
-<body>
-<h1> Upload file  </h1>
+<!-- <h1> Upload file  </h1>  -->
 <form action="/upload" method="POST" enctype="multipart/form-data">
-<div>
+<div class="content-section">
 Select file:
 <input id="fileName"  type="file" name="file" />
 <br/>
 Password: <input id="submit" type="password" name="password"> <br/>
 <input type="submit" name="Upload to IPFS">
-</form>
 </div>
-</body>
-</html>
-
+</form>
+{% endblock content %}
