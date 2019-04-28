@@ -1,29 +1,7 @@
-<!DOCTYPE html>
-<html>
-<style>
-body {
-  background-color: silver;
-  border-style: solid;
-  border-width: medium;
-  margin: 20px;
-  margin-right: 800px;
-}
-
-h1 {
-  color: blue;
-  margin-left: 25px;
-}
-
-div {
-  margin: 25px;
-}
-
-</style>
-<body>
-<h1> Uploaded file to IPFS  </h1>
+{% extends "layout.html" %}
+{% block content %}
+<h1> Sucessfully uploaded file to IPFS and network  </h1>
 <fieldset>
-<input type="label" value={{hash}} />
+        {{hash}}
 </fieldset>
-</body>
-</html>
-
+{% endblock content %}
